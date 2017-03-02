@@ -15,16 +15,50 @@ jQuery(document).ready(function ($) {
         initialSlide: 0,
      	dots:true,
         responsive: [
- 		{
-      breakpoint: 1050,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      }
-    },
+	 		{
+	      breakpoint: 1050,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1,
+	      }
+	    },
     
 		    
 		  ]
+    });
+
+	 $('.portfolio-slider').slick({
+        autoplay: false,
+        autoplaySpeed: 4000,
+        speed: 1001,
+        arrows: false,
+        slidesToShow: 4,
+        infinite: true,
+        slidesToScroll: 1,
+        pauseOnHover: false,
+        initialSlide: 0,
+     	dots:true,
+        responsive: [
+				 		{
+					      breakpoint: 1050,
+					      settings: {
+					        slidesToShow: 3,
+					      }
+					    },
+					    {
+					      breakpoint: 650,
+					      settings: {
+					        slidesToShow: 2,
+					      }
+					    },
+					    {
+					      breakpoint: 480,
+					      settings: {
+					        slidesToShow: 1,
+					      }
+					    },
+					    
+					]
     });
 
    $('.slider').slick({

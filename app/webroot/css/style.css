@@ -171,6 +171,18 @@ body {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
+.serv_ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 15px;
+    display: block; 
+    overflow: hidden;
+}
+.serv_ul li {
+    width: 50%;
+    float: left;
+}
 .category-list li {
   padding: 0 20px;
   font-size: 14px;
@@ -641,6 +653,12 @@ body {
   margin-bottom: 13px;
   line-height: 1.3;
 }
+.content a {
+    color: #848484;
+}
+.content a:hover {
+    text-decoration: none;
+}
 .content p:last-child {
   margin-bottom: 0;
 }
@@ -650,6 +668,13 @@ body {
   margin-top: -20px;
   margin-bottom: 40px;
   overflow: hidden;
+}
+.content ul {
+    font-size: 14px;
+    color: #848484;
+}
+.content ul li{
+    margin-bottom: 5px;
 }
 .news-list {
   margin: 0;
