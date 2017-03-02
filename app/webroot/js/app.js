@@ -6,7 +6,7 @@ jQuery(document).ready(function ($) {
 	 $('.reviews-slider').slick({
         autoplay: false,
         autoplaySpeed: 4000,
-        speed: 1000,
+        speed: 1001,
         arrows: false,
         slidesToShow: 2,
         infinite: true,
