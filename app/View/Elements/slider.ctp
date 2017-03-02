@@ -10,7 +10,7 @@
 					бейскенов ильяс<br>
 						саматович
 					</div>
-					<a href="" class="button">
+					<a href="#pozvonim" class="button">
 						ЗАПИСАТЬСЯ НА ПРИЕМ
 					</a>
 				</div>
@@ -25,7 +25,7 @@
 					бейскенов ильяс<br>
 						саматович
 				</div>
-				<a href="" class="button">
+				<a href="#pozvonim" class="button">
 					ЗАПИСАТЬСЯ НА ПРИЕМ
 				</a>
 			</div>
@@ -39,7 +39,7 @@
 					бейскенов ильяс
 						саматович
 				</div>
-				<a href="" class="button">
+				<a href="#pozvonim" class="button">
 					записаться на прием
 				</a>
 			</div>

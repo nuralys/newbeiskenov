@@ -28,7 +28,7 @@ jQuery(document).ready(function ($) {
     });
 
    $('.slider').slick({
-	    autoplay: false,
+	    autoplay: true,
 	    autoplaySpeed: 2000,
 	    speed: 1000,
 	    arrows: false,
@@ -79,7 +79,7 @@ jQuery(document).ready(function ($) {
     
      //menu
    $('.mob_start').click(function(e) {
-    var $mob_part = $('.nav');
+    var $mob_part = $('.head-top__nav');
     if ($mob_part.hasClass('m_menu')) {
         $mob_part.removeClass('m_menu');
          $(this).removeClass('active-start');
@@ -102,11 +102,7 @@ jQuery(document).ready(function ($) {
 			$('.price-item').children('.price-item__content').animate({height: "hide"}, "easein");
 			$(this).addClass('active');
 			$(this).children('.price-item__content').animate({height: "show"}, "easein");
-			
-	
 		}
-		
-		
     });
 
    	 $('.head-bottom__phone button').on('click', function() {

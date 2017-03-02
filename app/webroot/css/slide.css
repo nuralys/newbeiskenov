@@ -124,22 +124,16 @@
     clear: both;
     position: relative;
 }
-.beiskenov{
-    position: relative;
-}
 .beiskenov-img {
     position: absolute;
     left: 50%;
     margin-left: -601px;
-    top: -405px;
+    top: -378px;
     z-index: 555;
-}
-
-.beiskenov img {
-    margin-left: 130px;
+    display: none;
 }
 .slider-item-big {
-    padding: 115px 0;
+    padding: 106px 0;
     background-position: center;
 }
 .slider-item-big__text{
@@ -152,8 +146,8 @@
     font-weight: bold;
     color: #0094ff;
     line-height: 1;
-     -webkit-animation: fadeOutLeftBig 1.2s both 0.9s;
-   animation: fadeInLeftBig 0.9s both 0.9s;
+    -webkit-animation: fadeOutLeftBig 1.2s both 0.9s;
+    animation: fadeOutLeftBig 0.9s both 0.9s;
     margin-bottom: 45px;
 }
 .slider-item-big.slick-active .slider-item-big__name {
@@ -164,8 +158,8 @@
     font-size: 18px;
     font-weight: bold;
     color: #444;
-     -webkit-animation: fadeInRight 1.2s both 0.9s;
-   animation: fadeInRight 0.9s both 0.9s;
+     -webkit-animation: fadeOutRight 1.2s both 0.9s;
+   animation: fadeOutRight 0.9s both 0.9s;
 }
 .slider-item-big.slick-active .slider-item-big__min-title {
     -webkit-animation: fadeInRight 1.2s both 0.9s;
@@ -175,41 +169,20 @@
     background-image: url(../img/slide1.jpg)
 }
 .slide2{
-    background-image: url(../img/slide5.jpg)
-}
-.slide3{
-    background-image: url(../img/slide4.jpg)
-}
-.slide4{
-    background-image: url(../img/slide3.jpg)
-}
-.slide5{
     background-image: url(../img/slide2.jpg)
 }
-.slide6{
-    background-image: url(../img/slide6.jpg)
+.slide3{
+    background-image: url(../img/slide3.jpg)
+}
+.slide4{
+    background-image: url(../img/slide4.jpg)
 }
 
 
-@media screen and (max-width: 1180px) {
-.slider-text-table {
-    width: 100%;
-    padding: 0 15px;
-    box-sizing:border-box;
-}
-}
-@media screen and (max-width: 1050px) {
-.reviews__item {
-    margin-right: 1px;
-    box-sizing: border-box;
 
-}
-.slider__item-text p {
-    text-align: justify;
-}
-.reviews-container {
-    margin-right: 0;
-    padding-bottom: 42px;
-}
+@media screen and (max-width: 750px) {
+    .slider-container{
+        display: none;
+    }
 }
 

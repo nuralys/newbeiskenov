@@ -43,6 +43,11 @@
 							<li><a href=""> Новости/Акции </a></li>
 							<li><a href="">Контакты </a></li>
 						</ul>
+						<div class="mob_start">
+							<span></span>
+			                <span></span>
+			                <span></span>
+						</div>
 						<div class="head-top__address">
 							Адрес: г. Астана, ул. Букейхана 8/2
 						</div>
