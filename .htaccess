@@ -1,0 +1,23 @@
+Options +FollowSymLinks
+RewriteEngine On
+Redirect 301 /services/Korrektsiya_yagodits http://beiskenov.com/services/uvelichenie_yagodits
+Redirect 301 /services/plastika_vek http://beiskenov.com/services/blefaroplastika
+Redirect 301 /services/endoprotezirovanie_molochnyh_zhelez http://beiskenov.com/services/uvelichenie_grudi
+Redirect 301 /services/endoprotezirovanie_molochnyh_zhelez/ http://beiskenov.com/services/uvelichenie_grudi
+Redirect 301 /services/plastika_nosa http://beiskenov.com/services/rinoplastika
+Redirect 301 /services/mastopeksiya http://beiskenov.com/services/podtjazhka_grudi
+Redirect 301 /services/plastika_zhivota http://beiskenov.com/services/abdominoplastika
+
+Redirect 301 /services/redukcionnaya_mammoplastika http://beiskenov.com/services/mammoplastika
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   Redirect 301 /index.php http://beiskenov.com
+   RewriteCond %{HTTP_HOST} ^www\.(.*)$
+   RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
+   RewriteBase /
+RewriteCond %{HTTP_HOST} (.*)
+   RewriteCond %{REQUEST_URI} /$ [NC]
+	RewriteRule ^(.*)(/)$ $1 [L,R=301]
+   RewriteRule    ^$ app/webroot/    [L]
+   RewriteRule    (.*) app/webroot/$1 [L]
+</IfModule>
