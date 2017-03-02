@@ -6,16 +6,17 @@
 		<div class="content">
 			<div class="title">
 				<h1><?=$service['Service']['title']?></h1>
-			</div>
-
-			<!-- Хлебные крошки -->
-			<ul>
+				<ul>
 				<li><a href="/" title="Главная страница">Главная</a></li>
 				<?php if($breadcrumbs): ?>
 				<li><a href="/services/<?=$breadcrumbs['Breadcrumbs']['alias']?>" title="<?=$breadcrumbs['Breadcrumbs']['title']?>"><?=$breadcrumbs['Breadcrumbs']['title']?></a></li>
 			<?php endif ?>
 				<li><?=$service['Service']['title'] ?></li>
 			</ul>
+			</div>
+
+			<!-- Хлебные крошки -->
+			
 			<!-- Хлебные крошки -->
 
 			<!-- Дочерние услуги -->
@@ -73,7 +74,7 @@
 					<p>запишитесь на <span>бесплатный</span> прием ДО КОНЦА АКЦИИ ОСТАЛОСЬ:</p>
 				</div>
 				<div class="f_bot">
-					<img src="img/phone.jpg">
+					<img src="/img/phone.jpg">
 					<div class="count_l">
 						<span>Час</span>
 						<span>Минута</span>
