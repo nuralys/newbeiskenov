@@ -393,13 +393,17 @@ body {
   box-shadow: 0 0 100px #aaa, 0 0 10px #aaa inset !important;
 }
 .highlight .text {
-  top: -30px;
-  left: 0;
-  right: 0;
-  display: block;
-  margin: 0 auto;
-  color: #767676;
-  background: 0 0;
+    top: -30px;
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+    color: #767676;
+    background: 0 0;
+    cursor: pointer;
+}
+.highlight {
+    cursor: pointer;
 }
 .highlight .text#ass,
 .highlight .text#boobs,
@@ -409,11 +413,13 @@ body {
   background-image: url(../img/sprite.png);
   background-size: 226px, 188px;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 .highlight .text#ass {
   background-position: 0 -140px;
   width: 142px;
   height: 28px;
+
 }
 .highlight .text#stomach {
   background-position: 0 -58px;
