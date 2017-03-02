@@ -30,7 +30,57 @@
 			<!-- Дочерние услуги -->
 
 			<?=$service['Service']['body']?>
-
+			
+			<div class="portfolio-slider">
+				<div class="portfolio-item">
+					<div class="portfolio-item__name">
+						Увеличение груди
+					</div>
+					<a href="/img/portfolio.jpg" class="fancybox portfolio-item__img">
+						<img src="/img/portfolio.jpg" alt="">
+					</a>
+				</div>
+				<div class="portfolio-item">
+					<div class="portfolio-item__name">
+						Увеличение груди
+					</div>
+					<a href="/img/portfolio.jpg" class="fancybox portfolio-item__img">
+						<img src="/img/portfolio.jpg" alt="">
+					</a>
+				</div>
+				<div class="portfolio-item">
+					<div class="portfolio-item__name">
+						Увеличение груди
+					</div>
+					<a href="/img/portfolio.jpg" class="fancybox portfolio-item__img">
+						<img src="/img/portfolio.jpg" alt="">
+					</a>
+				</div>
+				<div class="portfolio-item">
+					<div class="portfolio-item__name">
+						Увеличение груди
+					</div>
+					<a href="/img/portfolio.jpg" class="fancybox portfolio-item__img">
+						<img src="/img/portfolio.jpg" alt="">
+					</a>
+				</div>
+				<div class="portfolio-item">
+					<div class="portfolio-item__name">
+						Увеличение груди
+					</div>
+					<a href="/img/portfolio.jpg" class="fancybox portfolio-item__img">
+						<img src="/img/portfolio.jpg" alt="">
+					</a>
+				</div>
+				<div class="portfolio-item">
+					<div class="portfolio-item__name">
+						Увеличение груди
+					</div>
+					<a href="/img/portfolio.jpg" class="fancybox portfolio-item__img">
+						<img src="/img/portfolio.jpg" alt="">
+					</a>
+				</div>
+			</div>
 			<!-- Цены -->
 			 <div class="price_bot">
 				<?php if($service['Service']['price']): ?>

@@ -35,7 +35,15 @@
 					<div class="head-top">
 						<ul class="head-top__nav">
 							<li><a href="">Главная</a></li>
-							<li><a href="">Услуги</a></li>
+							<li><a>Услуги</a>
+								<div class="sub-container">
+									<ul class="sub-menu">
+										<li><a href="content-page.html">Мастерская идеальной груди</a></li>
+										<li><a href="">Пластика тела</a></li>
+										<li><a href="">Пластика лица</a></li>
+									</ul>
+								</div>
+							</li>
 							<li><a href="">О хирурге</a></li>
 							<li><a href="">Цены </a></li>
 							<li><a href="">Полезная информация </a></li>
@@ -49,7 +57,7 @@
 			                <span></span>
 						</div>
 						<div class="head-top__address">
-							Адрес: г. Астана, ул. Букейхана 8/2
+							Адрес: г. ул. Азербайжана Мамбетова  8/2
 						</div>
 					</div>
 				</div>
@@ -57,7 +65,7 @@
 			<div class="head-bottom">
 				<div class="cr">
 					<a href="" class="head-bottom__logo logo">
-						<img src="/img/logo.jpg" alt="">
+						<img src="/img/logo.png" alt="">
 					</a>
 					<div class="head-bottom__soc-seti">
 						<a href=""><img src="/img/fb.jpg" alt=""></a>
