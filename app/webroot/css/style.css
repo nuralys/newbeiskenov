@@ -33,6 +33,7 @@ body {
   flex-direction: column;
   flex: auto;
 }
+
 .page {
   width: 100%;
   margin: 0 auto;
@@ -700,10 +701,11 @@ body {
   margin-right: -40px;
   font-size: 0;
 }
-.news-list li {
-  display: inline-block;
-  width: 33.3%;
-  margin-bottom: 40px;
+.content ul.news-list li {
+    display: inline-block;
+    width: 33.3%;
+    margin-bottom: 40px;
+    vertical-align: top;
 }
 .news-item {
   margin-right: 40px;
