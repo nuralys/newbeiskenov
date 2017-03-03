@@ -1,12 +1,13 @@
 <div class="container">
 	<div class="cr">
 		<div class="category-list__title">
-			Полезная информация
+			<h1>Полезная информация</h1>
+			<ul>
+				<li><a href="/">Главная</a></li>
+				<li>Полезная информация</li>
+			</ul>
 		</div>
-		<ul>
-			<li><a href="/">Главная</a></li>
-			<li>Полезная информация</li>
-		</ul>
+		
 		<div class="content">
 			<ul class="news-list">
 			<?php foreach($blogs as $item) : ?>

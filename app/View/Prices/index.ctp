@@ -1,13 +1,15 @@
 <?=$this->element('slider')?>
 <div class="container">
 	<div class="cr">
-		<h1 class="category-list__title">
+		<div class="category-list__title">
+		<h1 >
 			Прай лист | цены
 		</h1>
 		<ul>
-				<li><a href="/">Главная</a></li>
-				<li>Прай лист | цены</li>
-			</ul>
+			<li><a href="/">Главная</a></li>
+			<li>Прай лист | цены</li>
+		</ul>
+		</div>
 		<div class="content">
 			<ul class="price">
 				<li class="price-item">

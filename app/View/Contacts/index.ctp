@@ -1,8 +1,12 @@
 <div class="container">
 	<div class="cr">
-		<h1 class="category-list__title">
-			Контакты
-		</h1>
+		<div class="category-list__title">
+			<h1>Контакты</h1>
+			<ul>
+				<li><a href="/">Главная</a></li>
+				<li>Контакты</li>
+			</ul>
+		</div>
 		<div class="content">
 			<ul class="contact">
 				<li class="contact-item">

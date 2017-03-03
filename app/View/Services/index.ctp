@@ -86,16 +86,20 @@
 					<p>Записаться на прием  <del>5000 тг</del></p>
 					<p>запишитесь на <span>бесплатный</span> прием ДО КОНЦА АКЦИИ ОСТАЛОСЬ:</p>
 				</div>
-				<div class="f_bot">
-					<img src="/img/phone.jpg">
-					<div class="count_l">
-						<span>Час</span>
-						<span>Минута</span>
-						<span>Секунда</span>
-						<div class="countbox"><div class="countbox-num"><div class="countbox-hours1"><span></span>1</div><div class="countbox-hours2"><span></span>7</div><div class="countbox-hours-text"></div></div><div class="countbox-space"></div><div class="countbox-num"><div class="countbox-mins1"><span></span>5</div><div class="countbox-mins2"><span></span>6</div><div class="countbox-mins-text"></div></div><div class="countbox-space"></div><div class="countbox-num"><div class="countbox-secs1"><span></span>0</div><div class="countbox-secs2"><span></span>6</div><div class="countbox-secs-text"></div></div></div>						
+				<div class="f_bot-container">
+					<div class="f_bot">
+						<img src="/img/phone.jpg">
+						<div class="count_l">
+							<span>Час</span>
+							<span>Минута</span>
+							<span>Секунда</span>
+							<div class="countbox"><div class="countbox-num"><div class="countbox-hours1"><span></span>1</div><div class="countbox-hours2"><span></span>7</div><div class="countbox-hours-text"></div></div><div class="countbox-space"></div><div class="countbox-num"><div class="countbox-mins1"><span></span>5</div><div class="countbox-mins2"><span></span>6</div><div class="countbox-mins-text"></div></div><div class="countbox-space"></div><div class="countbox-num"><div class="countbox-secs1"><span></span>0</div><div class="countbox-secs2"><span></span>6</div><div class="countbox-secs-text"></div></div></div>						
+						</div>
 					</div>
-				
 				</div>
+				<a href="" class="button">
+					Записаться
+				</a>
 			</div>
 		</div>
 	</div>

@@ -1,7 +1,11 @@
 <div class="container">
 	<div class="cr">
 		<div class="category-list__title">
-			Галерея
+			<h1>Галерея</h1>
+			<ul>
+				<li><a href="/">Главная</a></li>
+				<li>Галерея</li>
+			</ul>
 		</div>
 		<div class="content">
 			<ul class="gallery-list">
