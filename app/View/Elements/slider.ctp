@@ -16,38 +16,70 @@
 				</div>
 			</div>
 		</div>
-		<div class="slider-item-bigslide1">
+		<div class="slider-item-big slide2">
 			<div class="cr">
-				<div class="slider-item__min-title">
-					ведущий пластический хирург
-				</div>
-				<div class="slider-item-big__name">
+				<div class="slider-item-big__text">
+					<div class="slider-item-big__min-title">
+						ведущий пластический хирург
+					</div>
+					<div class="slider-item-big__name">
 					бейскенов ильяс<br>
 						саматович
+					</div>
+					<a href="#pozvonim" class="button">
+						ЗАПИСАТЬСЯ НА ПРИЕМ
+					</a>
 				</div>
-				<a href="#pozvonim" class="button">
-					ЗАПИСАТЬСЯ НА ПРИЕМ
-				</a>
 			</div>
 		</div>
-		<div class="slider-item-big slide1">
+		<div class="slider-item-big slide3">
 			<div class="cr">
-				<div class="slider-item-big__min-title">
-					ведущий пластический хирург
-				</div>
-				<div class="slider-item-big__name">
-					бейскенов ильяс
+				<div class="slider-item-big__text">
+					<div class="slider-item-big__min-title">
+						ведущий пластический хирург
+					</div>
+					<div class="slider-item-big__name">
+					бейскенов ильяс<br>
 						саматович
+					</div>
+					<a href="#pozvonim" class="button">
+						ЗАПИСАТЬСЯ НА ПРИЕМ
+					</a>
 				</div>
-				<a href="#pozvonim" class="button">
-					записаться на прием
-				</a>
+			</div>
+		</div>
+		<div class="slider-item-big slide4">
+			<div class="cr">
+				<div class="slider-item-big__text">
+					<div class="slider-item-big__min-title">
+						ведущий пластический хирург
+					</div>
+					<div class="slider-item-big__name">
+					бейскенов ильяс<br>
+						саматович
+					</div>
+					<a href="#pozvonim" class="button">
+						ЗАПИСАТЬСЯ НА ПРИЕМ
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="slider-item-big slide5">
+			<div class="cr">
+				<div class="slider-item-big__text">
+					<div class="slider-item-big__min-title">
+						ведущий пластический хирург
+					</div>
+					<div class="slider-item-big__name">
+					бейскенов ильяс<br>
+						саматович
+					</div>
+					<a href="#pozvonim" class="button">
+						ЗАПИСАТЬСЯ НА ПРИЕМ
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="beiskenov">
-		<div class="beiskenov-img">
-		<img src="/img/beiskenov.png" alt="">
-		</div>
-	</div>
+	
 </div>
