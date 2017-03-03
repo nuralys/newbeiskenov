@@ -34,22 +34,22 @@
 				<div class="cr">
 					<div class="head-top">
 						<ul class="head-top__nav">
-							<li><a href="">Главная</a></li>
+							<li><a href="/">Главная</a></li>
 							<li><a>Услуги</a>
 								<div class="sub-container">
 									<ul class="sub-menu">
-										<li><a href="content-page.html">Мастерская идеальной груди</a></li>
-										<li><a href="">Пластика тела</a></li>
-										<li><a href="">Пластика лица</a></li>
+										<li><a href="/services/masterskaya_idealnoy_grudi">Мастерская идеальной груди</a></li>
+										<li><a href="/services/plastika_tela">Пластика тела</a></li>
+										<li><a href="/services/plastika_litsa">Пластика лица</a></li>
 									</ul>
 								</div>
 							</li>
-							<li><a href="">О хирурге</a></li>
-							<li><a href="">Цены </a></li>
-							<li><a href="">Полезная информация </a></li>
-							<li><a href=""> Галерея</a></li>
-							<li><a href=""> Новости/Акции </a></li>
-							<li><a href="">Контакты </a></li>
+							<li><a href="/page/about">О хирурге</a></li>
+							<li><a href="/price">Цены</a></li>
+							<li><a href="/blogs">Полезная информация </a></li>
+							<li><a href="/gallery">Галерея</a></li>
+							<li><a href="/news"> Новости/Акции </a></li>
+							<li><a href="/contacts">Контакты </a></li>
 						</ul>
 						<div class="mob_start">
 							<span></span>
@@ -64,13 +64,13 @@
 			</div>
 			<div class="head-bottom">
 				<div class="cr">
-					<a href="" class="head-bottom__logo logo">
-						<img src="/img/logo.png" alt="">
+					<a href="/" class="head-bottom__logo logo" title="Пластическая хирургия в Астане">
+						<img alt="Пластическая хирургия в Астане" title="Пластическая хирургия в Астане" src="/img/logo.png" />
 					</a>
 					<div class="head-bottom__soc-seti">
-						<a href=""><img src="/img/fb.jpg" alt=""></a>
-						<a href=""><img src="/img/vk.jpg" alt=""></a>
-						<a href=""><img src="/img/insta.jpg" alt=""></a>
+						<a href="https://www.facebook.com/profile.php?id=100011515033463" target="_blank"><img src="/img/fb.jpg" alt="facebook И. Бейскенов"></a>
+						<a href="https://vk.com/beiskenov" target="_blank"><img src="/img/vk.jpg" alt="vk И. Бейскенов"></a>
+						<a href="https://www.instagram.com/dr_beiskenov/" target="_blank"><img src="/img/insta.jpg" alt="instagram И. Бейскенов"></a>
 					</div>
 					<div class="head-bottom__phone">					
 						<button id="button">Показать номер</button>

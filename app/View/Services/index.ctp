@@ -32,54 +32,17 @@
 			<?=$service['Service']['body']?>
 			
 			<div class="portfolio-slider">
+			<?php foreach($blocks as $block) : ?>
 				<div class="portfolio-item">
-					<div class="portfolio-item__name">
-						Увеличение груди
-					</div>
-					<a href="/img/portfolio.jpg" class="fancybox portfolio-item__img">
-						<img src="/img/portfolio.jpg" alt="">
+					
+					<a href="/img/blocks/<?=$block['Block']['img']?>" class="fancybox portfolio-item__img">
+						<img src="/img/blocks/<?=$block['Block']['img']?>" alt="<?=$block['Block']['title']?>">
 					</a>
-				</div>
-				<div class="portfolio-item">
 					<div class="portfolio-item__name">
-						Увеличение груди
+						<?=$block['Block']['title']?>
 					</div>
-					<a href="/img/portfolio.jpg" class="fancybox portfolio-item__img">
-						<img src="/img/portfolio.jpg" alt="">
-					</a>
 				</div>
-				<div class="portfolio-item">
-					<div class="portfolio-item__name">
-						Увеличение груди
-					</div>
-					<a href="/img/portfolio.jpg" class="fancybox portfolio-item__img">
-						<img src="/img/portfolio.jpg" alt="">
-					</a>
-				</div>
-				<div class="portfolio-item">
-					<div class="portfolio-item__name">
-						Увеличение груди
-					</div>
-					<a href="/img/portfolio.jpg" class="fancybox portfolio-item__img">
-						<img src="/img/portfolio.jpg" alt="">
-					</a>
-				</div>
-				<div class="portfolio-item">
-					<div class="portfolio-item__name">
-						Увеличение груди
-					</div>
-					<a href="/img/portfolio.jpg" class="fancybox portfolio-item__img">
-						<img src="/img/portfolio.jpg" alt="">
-					</a>
-				</div>
-				<div class="portfolio-item">
-					<div class="portfolio-item__name">
-						Увеличение груди
-					</div>
-					<a href="/img/portfolio.jpg" class="fancybox portfolio-item__img">
-						<img src="/img/portfolio.jpg" alt="">
-					</a>
-				</div>
+				<?php endforeach; ?>
 			</div>
 			<!-- Цены -->
 			 <div class="price_bot">
